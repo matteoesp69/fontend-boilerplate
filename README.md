@@ -12,6 +12,7 @@
   <li>Option 2. Import just the Bootstrap's styles you need</li>
   <li>Option 1. Import all of Bootstrap's script (gulp-concat)</li>
   <li>Option 2. Import just the Bootstrap's script you need</li>
+  <li>Cache Control</li>
 </ul>
 
 <h4>Frameworks & Libraries included</h4>
@@ -26,4 +27,9 @@
   <li>Clone the repo</li>
   <li>Run `npm install` install dependencies</li>
   <li>Run `gulp watch` to run the default gulp task (see gulpfile.js)</li>
+  <li>Cache control run before production (see links with ?id=123)
+    <ul>
+      <li>Run `gulp cacheBustTask`</li>
+      </ul>
+    </li>
 </ul>

@@ -6,6 +6,7 @@ const uglify = require('gulp-uglify');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 const purgecss = require('gulp-purgecss');
+const replace = require('gulp-replace');
 const sourcemaps = require('gulp-sourcemaps');
 const browserSync = require('browser-sync').create();
 
@@ -45,6 +46,14 @@ function jsTask() {
     .pipe(browserSync.stream());
 }
 
+// Cache Control Task
+function cacheBustTask() {
+  var cbString = new Date().getTime();
+  return gulp.src(['**/*.html'])
+    .pipe(replace(/cb=\d+/g, 'cb=' + cbString))
+    .pipe(gulp.dest('.'))
+}
+
 // Watch files
 function watch() {
   browserSync.init({
@@ -60,4 +69,5 @@ function watch() {
 
 exports.cssTask = cssTask;
 exports.jsTask = jsTask;
+exports.cacheBustTask = cacheBustTask;
 exports.watch = watch;

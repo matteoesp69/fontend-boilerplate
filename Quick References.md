@@ -11,6 +11,7 @@
 - Setting up Gulp 4 for Bootstrap, SASS, and BrowserSync
 - Typography \ Tools
 - Issues
+  Browsers-list
 
 ---
 
@@ -75,3 +76,9 @@
 
 <h2>Issues</h2>
 https://stackoverflow.com/questions/21961142/concat-scripts-in-order-with-gulp
+
+<h2>Browsers-list</h2>
+npx browserlist
+
+https://github.com/browserslist/browserslist-ga
+npx browserlist-ga

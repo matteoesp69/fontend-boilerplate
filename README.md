@@ -1,6 +1,6 @@
 <h1>Frontend Boilerplate</h1>
 
-<h2>Simple Send-Box template using Bootstrap, Sass and Gulp 4</h2>
+<h2>Frontend started template using Bootstrap, Sass and Gulp 4</h2>
 <h3>What's included</h3>
 
 <ul>
@@ -18,7 +18,7 @@
 <p>Font-awesome, Poppersjs/core, Bootstrap, Bootstrap-icons, jQuery, popper.js, Responsive font size (rfs).</p>
 
 <h4>Plugins included</h4>
-<p>gulp, gulp-sass, gulp-concat, gulp-uglify, gulp-source-maps, browser-sync.</p>
+<p>gulp, gulp-sass, cssnano, autoprefixer, purgecss, gulp-concat, gulp-uglify, gulp-source-maps, browser-sync.</p>
 
 <h5>Usage</h5>
 <ul>

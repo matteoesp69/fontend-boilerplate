@@ -1,4 +1,4 @@
-<h1>Fontend Boilerplate</h1>
+<h1>Frontend Boilerplate</h1>
 
 <h2>Simple Send-Box template using Bootstrap, Sass and Gulp 4</h2>
 <h3>What's included</h3>

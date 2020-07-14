@@ -1,0 +1,41 @@
+html {
+ box-sizing: border-box;
+ font-size: 100%;
+ width: auto !important;
+ overflow-x: hidden !important;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:before,
+*:after {
+ box-sizing: inherit;
+}
+
+body {
+ font-family: "Roboto", sans-serif;
+}
+
+// Popup style
+#popup {
+ font-size: 1rem;
+ padding: 1rem;
+}
+
+// Fonts
+.awesome {
+ font-size: 1.8rem;
+}
+
+.fab {
+ font-size: 2rem;
+ position: absolute;
+ right: 16px;
+ top: 96px;
+}     
+
+// Footer
+footer {
+ position: relative;
+}

@@ -1,0 +1,10 @@
+{
+    "window.zoomLevel": 0.7,
+    "editor.fontSize": 16,
+    "editor.tabSize": 1,
+    "files.autoSave": "onFocusChange",
+    "editor.nordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false
+}

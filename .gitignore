@@ -1,0 +1,5 @@
+.DS_Store
+.project
+*.pyc
+node_modules/
+Quick References.md

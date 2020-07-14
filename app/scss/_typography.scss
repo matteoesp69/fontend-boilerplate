@@ -1,0 +1,58 @@
+/*! Typography */
+
+// Rfs insert calc from 21px up
+h1 {
+ font-family: "Roboto", sans-serif;
+ @include rfs(75px);
+ font-weight: 500;
+ line-height: 1.20;
+ opacity: 1.00;
+ margin-top: 2.4rem;
+ margin-bottom: 0;
+ letter-spacing: -0.72px;
+ word-spacing: 0.00px;
+ text-transform: none;
+}
+
+h2 {
+ font-family: "Roboto", sans-serif;
+ @include rfs(42px);
+ font-weight: 400;
+ line-height: 1.20;
+ opacity: 1.00;
+ margin-top: 30px;
+ margin-bottom: 5px;
+ letter-spacing: -0.72px;
+ word-spacing: 0.00px;
+ text-transform: none;
+}
+
+h3 {
+ font-family: "Roboto", sans-serif;
+ @include rfs(31px);
+ font-weight: 400;
+ line-height: 1.20;
+ opacity: 1.00;
+ margin-top: 30px;
+ margin-bottom: 5px;
+ letter-spacing: 0.00px;
+ word-spacing: 0.00px;
+ text-transform: none;
+
+ @media #{$mq-1000-up} {
+  color: purple;
+ }
+}
+
+p {
+ font-family: "Roboto", sans-serif;
+ @include rfs(21px);
+ font-weight: 400;
+ line-height: 1.40;
+ opacity: 0.55;
+ margin-top: 0px;
+ margin-bottom: 25px;
+ letter-spacing: -0.30px;
+ word-spacing: -0.10px;
+ text-transform: none;
+}

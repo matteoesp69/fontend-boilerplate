@@ -13,6 +13,7 @@
   <li>Option 1. Import all of Bootstrap's script (gulp-concat)</li>
   <li>Option 2. Import just the Bootstrap's script you need</li>
   <li>Cache Control</li>
+  <li>Send Request Test</li>
 </ul>
 
 <h4>Frameworks & Libraries included</h4>
